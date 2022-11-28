@@ -49,10 +49,6 @@ public class MergeSort {
             }
         }
 
-        for (int  k = 0; k < temp.length; k++) {
-            System.out.print(temp[k] + " ");
-        }
-
         System.out.println("");
         System.arraycopy(input, i, input, start + tempIndex, mid - i);
         System.arraycopy(temp, 0, input, start, tempIndex);
